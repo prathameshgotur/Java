@@ -6,7 +6,7 @@ public class altest1 {
 	
 	public static void main(String[] args) {
 		
-		// Conversion of ArrayList to Arry 
+1)// Conversion of ArrayList to Arry 
 		ArrayList<String> alist=new ArrayList<String>();
 		alist.add("A");
 		alist.add("B");
@@ -25,7 +25,8 @@ public class altest1 {
 		System.out.println("Array length:"+arr.length);
 		
 	}}//class ends
-//ArrayList
+
+2)//ArrayList
 package Collection;
 
 import java.util.ArrayList;
@@ -94,7 +95,8 @@ public class altest {
 	}
 
 }//class ends
-// Conversion of Array to ArrayList
+
+3)// Conversion of Array to ArrayList
 package Collection;
 
 import java.util.Collections;
@@ -114,7 +116,8 @@ public class altest2 {
 
 }//class ends
 
-//Conversion of ArrayList to String
+
+4)//Conversion of ArrayList to String
 
 class altest3{
 	
