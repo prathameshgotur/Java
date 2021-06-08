@@ -138,6 +138,30 @@ class altest3{
 		
 	}
 }//class ends
+//5) Sorting of ArrayList
+class alist4{
+	public static void main(String[] args) {
+		
+		 ArrayList<String> alist=new ArrayList<String>();
+		 alist.add("C");
+		 alist.add("B");
+		 alist.add("A");
+		 alist.add("D");
+		 
+		 System.out.println("Before sorting: "+alist);
+		 
+		 Collections.sort(alist);
+		 
+		 System.out.println("After sorting:"+alist);
+		 
+		 Collections.sort(alist,Collections.reverseOrder());
+		 System.out.println("After sorting:(Des)"+alist);
+		 
+		 
+		
+	}
+}
+
 
 
 
