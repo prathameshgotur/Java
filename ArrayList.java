@@ -1,5 +1,5 @@
 package Collection;
-
+//Coversion of ArrayList to Array
 import java.util.ArrayList;
 
 public class altest1 {
