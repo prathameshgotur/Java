@@ -160,7 +160,31 @@ class alist4{
 		 
 		
 	}
-}
+}//class ends
+
+//6) Creating a subList from given Arraylist
+
+class aList{
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> alist=new ArrayList<Integer>();
+		
+		alist.add(1);
+		alist.add(2);
+		alist.add(3);
+		alist.add(4);
+		alist.add(5);
+		
+		System.out.println("Array list Before:"+alist);
+		
+		ArrayList<Integer> li=new ArrayList<Integer>(alist.subList(1, 3));
+		System.out.println("Array Sublisted:"+li);
+			
+	}
+}//class ends
+
+
 
 
 
