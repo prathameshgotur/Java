@@ -112,7 +112,29 @@ public class altest2 {
 
 	}
 
-}
+}//class ends
+
+//Conversion of ArrayList to String
+
+class altest3{
+	
+	public static void main(String[] args) {
+		
+	ArrayList<String> alist=new ArrayList<String>();
+	alist.add("I-phone");
+	alist.add("Samsung");
+	alist.add("vivo");
+	alist.add("oppo");
+	
+	String S=alist.toString();
+	System.out.println("Array list is:"+S);
+	
+	System.out.println("Size of ArrayList:"+alist.size());
+	System.out.println("Size of lenght:"+S.length());
+	
+		
+	}
+}//class ends
 
 
 
