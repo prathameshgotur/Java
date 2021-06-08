@@ -94,6 +94,26 @@ public class altest {
 	}
 
 }//class ends
+// Conversion of Array to ArrayList
+package Collection;
+
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Arrays;
+public class altest2 {
+
+	public static void main(String[] args) {
+		Integer[] arr= {1,2,3};
+		
+		for(Integer s:arr)
+	System.out.println(s);
+		ArrayList<Integer> alist=new ArrayList<Integer>(Arrays.asList(arr));
+		System.out.println("Array: "+alist);
+
+	}
+
+}
+
 
 
 
