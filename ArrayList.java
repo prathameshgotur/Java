@@ -184,7 +184,50 @@ class aList{
 	}
 }//class ends
 
+//7) Swap two elements in arraylist
 
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class altest4 {
+	public static void main(String[] args) {
+		
+		ArrayList<String> al=new ArrayList<String>();
+		
+		al.add("A");
+		al.add("B");
+		al.add("C");
+		al.add("D");
+		System.out.println(al);
+		Collections.swap(al, 1, 3);
+		System.out.println(al);
+	}
+
+}/class ends
+
+//8) Clone()
+class altest6{
+	public static void main(String[] args) {
+		
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("A");
+		al.add("B");
+		al.add("C");
+		al.add("D");
+		
+		System.out.println("Orignal Array list:"+al);
+		
+		ArrayList<String> al1= (ArrayList<String>)al.clone();
+		
+		System.out.println("Clone Array:"+al1);
+		
+		al.add("E");
+		System.out.println("New Array List:"+al);
+		System.out.println("New Clone Array:"+al1);	
+		
+	}
+	
+}
 
 
 
