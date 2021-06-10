@@ -229,6 +229,39 @@ class altest6{
 	
 }
 
+//9) Stack in Array list push(),pop(),search(),peek(),empty()
+
+
+import java.util.Stack;
+public class Stackalist {
+
+	public static void main(String[] args) {
+		
+	Stack<String> li=new Stack<>();
+	li.push("A");
+	li.push("B");
+	li.push("C");
+	li.push("D");
+	
+	System.out.println(li);
+	
+	
+	System.out.println(li.peek());
+	
+	li.pop();
+	System.out.println(li);
+	System.out.println(li.peek());
+	System.out.println(li.search("A"));
+	//li.clear();
+	System.out.println(li.empty());
+	
+	
+	}
+
+}//class ends
+
+//10)
+
 
 
 
